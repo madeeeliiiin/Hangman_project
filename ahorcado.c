@@ -10,6 +10,26 @@
 #include<time.h>
 #include<stdlib.h>
 
+//macros
+#define MAX_WORDS 23 
+
+//Variables Globales
+void imprimir (int oport, char *wordserr, char *word);
+int found_word(char letra);
+int exist_word(char letra);
+int aciertos;
+
+//Cambiamos la opcion dada por marcos y colocamos palabras random
+char *adivina(void)= {
+    char *palabras[]={"resiliente", "inefable", "serendipia", "limerencia", "aurora", "efimero", "inmarcesible", "sempiterno", "petricor", "perenne", "nefelibato", "ataraxia", "acendrado", "alba", "armonia", "equilibrio", "libertad", "saudade", "sublime", "esplendor", "chispudo", "chilero", "meraki"};
+    int posicion;
+    srand((unsigned)time(NULL));
+    posicion = rand()%23;
+    return(palabras[posicion]);}
+    
+    char *cadena, word[14], letraserradas[10];
+
+
 //Prototipo de funciones
 
 void clearscreen(){
