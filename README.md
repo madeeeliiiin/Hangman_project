@@ -12,7 +12,7 @@ Navegación del Menu
   2. lo llevara a las instrucciones
   3. Lo llevara a la información de sus creadoras.
   4. lo sacara del juego y terminara el programa
-  
+  _____________________________________________________
 Extra Information
 El juego funciona con los requerimentos necesarios para que funcione y además cuenta con color .
 
